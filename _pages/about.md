@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p></p> # 555 your office number
+    <p> </p>  
     <p>1500 Kepner Dr</p>
     <p>Lafayette, IN 47905</p>
 
