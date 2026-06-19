@@ -26,8 +26,8 @@ cv:
         url: https://www.purdue.edu/
         area: Mechanical Engineering
         studyType: PhD
-        start_date: 2022
-        end_date: 2027
+        start_date: Aug, 2022
+        end_date: May, 2027
         score: ""
         courses: "Robust and Intelligent Control of Underwater Vehicles" 
 
@@ -35,40 +35,40 @@ cv:
         location: Ann Arbor, MI, USA
         area: Mechanical Engineering
         studyType: Master of Science
-        start_date: 2020
-        end_date: 2022
+        start_date: Aug, 2020
+        end_date: May, 2022
 
       - institution: Purdue University
         location: West Lafayette, IN, USA
         area: Mechanical Engineering
         studyType: Bachelor of Science
-        start_date: 2016
-        end_date: 2020
+        start_date: Aug, 2016
+        end_date: May, 2020
 
     Experience:
       - company: Nonlinear and Autonomous Systems Laboratory, Purdue University
         position: Research Assistant
         location: West Lafayette, IN
-        start_date: 2022
+        start_date: Aug, 2022
         end_date: present 
         
       - company: Autonomous System (ME 597), Purdue University
         position: Course Instructor
         location: West Lafayette, IN
-        start_date: 2025
-        end_date: 2025 
+        start_date: Aug, 2025
+        end_date: Dec, 2025 
 
       - company: Kurabayashi Group, University of Michigan
         position: Research Associate
         location: Ann Arbor, MI
-        start_date: 2021
-        end_date: 2022
+        start_date: Jan, 2021
+        end_date: Jan, 2022
 
       - company: Transportation Research Institute, University of Michigan
         position: Research Assistant
         location: Ann Arbor, MI
-        start_date: 2021
-        end_date: 2021
+        start_date: Jan, 2021
+        end_date: Sep, 2021
 
 
 
@@ -86,78 +86,79 @@ cv:
         awarder: Purdue University 
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: 
+Enhancing SUMO simulator for simulation based testing and validation of autonomous vehicles
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+          - Arpan Kusari, Pei Li, Hanzhi Yang, and Nikhil Punshi, Mich Rasulis, Scott Bogard, David J. LeBlanc
+        publisher: 2022 IEEE Intelligent Vehicles Symposium (IV)
+        releaseDate: 2022-6-4
+        url: https://doi.org/10.1109/IV51971.2022.9827241
+        summary: Current autonomous vehicle (AV) simulators are built to provide large-scale testing required to prove capabilities under varied conditions in controlled, repeatable fashion. However, they have certain failings including the need for user expertise and complex inconvenient tutorials for customized scenario creation. Simulation of Urban Mobility (SUMO) simulator, which has been presented as an open-source traffic simulation platform, has found use as an AV simulator but suffers from similar issues which makes it difficult for entry-level practitioners to utilize the simulator without significant time investment. In that regard, we provide two enhancements to SUMO simulator geared towards massively improving user experience and providing real-life like variability for surrounding traffic. Firstly, we calibrate a car-following model, Intelligent Driver Model (IDM), for highway and urban naturalistic driving data and sample randomly from the parameter distributions to create realistic background vehicle driving behavior. Secondly, we combine SUMO with OpenAI gym, creating a Python package placed in a docker container which can run simulations based on real world highway and urban layouts with generic output observations and input actions that can be processed via any AV pipeline. For the calibration, we provide results using simulated and real-life data. For the Sumo-Gym package, we showcase a simple AV platform which runs IDM and lane change throughout the highway loop and provide some qualitative results. Our aim through these enhancements is to provide an easy-to-use simulation environment which can be installed in any operating platform and can be readily used for AV testing and validation.
+     
+      - title: 
+Linear Modeling and Open-loop Control of a Multi-Axis Piezoelectric Micro-Mirror for Random-Access Laser Scanning
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+          - Hanzhi Yang, Joonyoung Yu, Mayur B. Birla, and Thomas D. Wang, Kenn R. Oldham
+        publisher: 
+        releaseDate: 2nd Modeling, Estimation and Control Conference MECC 2022
+        url: https://doi.org/10.1016/j.ifacol.2022.11.171
+        summary: This paper presents an early-stage model of a thin-film piezoelectric MEMS scanning mirror designed for random-access scanning over a considerable range. The high energy density of piezoelectric materials enables both high resonant frequencies and significant static offsets, facilitating the redirection of scans to specific locations within a large field of view. The study establishes a linearized modal model for the piezoelectric scanner and proposes an open-loop strategy for transitioning between full-field and narrow-field scanning. It also simulates the effects of step-wise transitions between operating modes on settling time and overshoot.
+      
+      - title: 
+Gliding in extreme waters - Dynamic Modeling and Nonlinear Control of an Agile Underwater Glider
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Hanzhi Yang and Nina Mahmoudian
+        publisher: 15th IFAC Conference on Control Applications in Marine Systems, Robotics and Vehicles CAMS 2024
+        releaseDate: 2024-9-3
+        url: https://doi.org/https://doi.org/10.1016/j.ifacol.2024.10.042
+summary: This paper presents a data-driven, nonlinear dynamics model and a Lyapunov-based controller for a custom underwater glider, aimed at improving navigation in constrained, dynamic environments. The proposed hybrid system, combining this nonlinear controller with PID control, is validated in simulations for reliable performance against environmental disturbances and during complex flight transitions.
+      - title: 
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+Under-ice Trajectory Tracking for Underwater Gliders Using Fuzzy-based Adaptive Control
+authors:
+          - Hanzhi Yang and Nina Mahmoudian
+        publisher: 2024 IEEE/OES Autonomous Underwater Vehicles Symposium (AUV)
+        releaseDate: 2024-9-18
+        url: https://doi.org/10.1109/AUV61864.2024.11030787
+summary: A dual-layer fuzzy adaptive control framework, designed with backstepping techniques and optimized via particle swarm optimization (PSO), has been developed for underwater gliders operating in ice-covered environments. Simulation results confirm the approach ensures high-accuracy tracking of depth, pitch, and heading while effectively managing unknown environmental disturbances.
+      - title: 
+
+Finite-time prescribed performance with fixed-time disturbance rejection for underwater glider heading control
+authors:
+          - Hanzhi Yang and Nina Mahmoudian
+        publisher: Ocean Engineering
+        releaseDate: 2025-10-1
+        url: https://doi.org/10.1016/j.oceaneng.2025.121842
+summary: This paper introduces a robust heading control strategy for underwater gliders that guarantees finite-time tracking error convergence despite model uncertainties, actuator limits, and environmental disturbances. The framework improves upon traditional sliding mode control systems by enhancing tracking accuracy, acceleration speeds, and overall path robustness. 
+
+
 
     Languages:
-      - name: German
+      - name: Chinese
         summary: "Native speaker"
 
       - name: English
         summary: "Fluent"
 
     Interests:
-      - name: Physics
+      - name: Field Robotics
         icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
+        keywords: "Marine Robotics, Underwater Vehicles, Multi-Robot Swarm"
+      - name: Control Theory
         icon: fa-solid fa-tag
+        keywords: "Robust Control, Intelligent Control, Multi-Agent Control, VLA"
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
 
-    References:
-      - name: Professor John Doe
+    Committees:
+      - name: Professor Nina Mahmoudian
         icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
 
-      - name: Professor Jane Smith
+      - name: Professor Mo Rastgaar
         icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+      - name: Professor George Chiu
+        icon: fa-solid fa-thumbtack
+
+        - name: Professor Yan Gu
+        icon: fa-solid fa-thumbtack
