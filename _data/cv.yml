@@ -97,8 +97,8 @@ cv:
       - title: Linear Modeling and Open-loop Control of a Multi-Axis Piezoelectric Micro-Mirror for Random-Access Laser Scanning
         authors:
           - Hanzhi Yang, Joonyoung Yu, Mayur B. Birla, and Thomas D. Wang, Kenn R. Oldham
-        publisher: 
-        releaseDate: 2nd Modeling, Estimation and Control Conference MECC 2022
+        publisher: 2nd Modeling, Estimation and Control Conference MECC 2022
+        releaseDate: 2022-10-2
         url: https://doi.org/10.1016/j.ifacol.2022.11.171
         summary: This paper presents an early-stage model of a thin-film piezoelectric MEMS scanning mirror designed for random-access scanning over a considerable range. The high energy density of pi[...]
       
@@ -145,7 +145,7 @@ cv:
 
 
 
-    Committees:
+    References:
       - name: Professor Nina Mahmoudian
         icon: fa-solid fa-laptop
 
