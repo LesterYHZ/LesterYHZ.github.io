@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-26'
+  last_updated: '2026-07-08'
 papers:
   NylXU9EAAAAJ:9yKSN-GCB0IC:
-    citations: 2
+    citations: 3
     title: An Integrated Air Quality Monitoring System for COVID-19 Virus Detection
     year: '2022'
   NylXU9EAAAAJ:IjCSPb-OGe4C:
@@ -26,7 +26,7 @@ papers:
     title: Finite-time prescribed performance with fixed-time disturbance rejection for underwater glider heading control
     year: '2025'
   NylXU9EAAAAJ:d1gkVwhDpl0C:
-    citations: 82
+    citations: 84
     title: Enhancing SUMO simulator for simulation based testing and validation of autonomous vehicles
     year: '2022'
   NylXU9EAAAAJ:qjMakFHDy7sC:
