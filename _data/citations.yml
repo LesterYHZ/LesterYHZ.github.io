@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-07-27'
 papers:
   NylXU9EAAAAJ:9yKSN-GCB0IC:
     citations: 3
@@ -42,6 +42,6 @@ papers:
     title: An independent study of reinforcement learning and autonomous driving
     year: '2021'
   NylXU9EAAAAJ:zYLM7Y9cAGgC:
-    citations: 1
+    citations: 2
     title: Under-ice Trajectory Tracking for Underwater Gliders Using Fuzzy-based Adaptive Control
     year: '2024'
