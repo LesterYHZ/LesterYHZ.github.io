@@ -1,13 +1,13 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-10'
 papers:
   NylXU9EAAAAJ:9yKSN-GCB0IC:
     citations: 3
     title: An Integrated Air Quality Monitoring System for COVID-19 Virus Detection
     year: '2022'
   NylXU9EAAAAJ:IjCSPb-OGe4C:
-    citations: 1
-    title: Trajectory tracking control of a Remotely Operated Underwater Vehicle based on Fuzzy Disturbance Adaptation and Controller Parameter Optimization
+    citations: 2
+    title: Trajectory tracking control of a Remotely Operated Underwater Vehicle based on fuzzy disturbance adaptation and controller parameter optimization
     year: '2024'
   NylXU9EAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
@@ -22,11 +22,11 @@ papers:
     title: Fixed-time control with prescribed performance for path following of underwater gliders
     year: '2025'
   NylXU9EAAAAJ:Y0pCki6q_DkC:
-    citations: 3
+    citations: 4
     title: Finite-time prescribed performance with fixed-time disturbance rejection for underwater glider heading control
     year: '2025'
   NylXU9EAAAAJ:d1gkVwhDpl0C:
-    citations: 86
+    citations: 85
     title: Enhancing SUMO simulator for simulation based testing and validation of autonomous vehicles
     year: '2022'
   NylXU9EAAAAJ:qjMakFHDy7sC:
